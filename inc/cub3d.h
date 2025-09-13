@@ -6,7 +6,7 @@
 /*   By: kevisout <kevisout@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/14 00:56:17 by kevisout          #+#    #+#             */
-/*   Updated: 2025/09/14 00:58:36 by kevisout         ###   ########.fr       */
+/*   Updated: 2025/09/14 01:05:24 by kevisout         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,3 +21,8 @@
 # include "../minilibx-linux/mlx.h"
 # include "X11/X.h"
 
+typedef struct s_data
+{
+	void	*mlx;
+	void	*win;
+}				t_data;
